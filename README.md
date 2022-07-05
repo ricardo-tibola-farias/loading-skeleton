@@ -1,5 +1,7 @@
 # AngularSkeleton
 
+This is a simple application that builds and demonstrates how to implement a skeleton loader. With html and SCSS and using custom Angular directives.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
 
 ## Development server
