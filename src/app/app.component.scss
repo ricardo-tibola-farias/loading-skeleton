@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 14px 25%;
+  gap: 48px;
+}
+
+.mat-button {
+  max-width: 100px !important;
+}

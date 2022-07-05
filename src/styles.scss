@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.skeleton {
+  background: linear-gradient(0.25turn, transparent, #fff, transparent),
+    linear-gradient(#eee, #eee),
+    radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
+    linear-gradient(0.25turn, transparent, #fff, transparent);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: skeleton-loading 1.5s infinite;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+  color: transparent !important;
+  transition: none !important;
+  border-radius: 6px !important;
+  user-select: none !important;
+
+  * {
+    opacity: 0 !important;
+    color: transparent !important;
+    transition: none !important;
+  }
+}
+
+@keyframes skeleton-loading {
+  to {
+    background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+  }
+}
